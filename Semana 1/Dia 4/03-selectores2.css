@@ -33,3 +33,42 @@ a{
 
     color: chartreuse;
 }
+.boton_navegacion{
+    text-decoration: none;
+    font-family: cursive;
+    color: yellow;
+}
+button.boton_navegacion{
+    color:royalblue;
+}
+.boton_navegacion.activo{
+    box-shadow: #aaa 0px 0px 20px;
+}
+#miFooter{
+
+    background: #ccc;
+}
+/*todos los parrafos que esten como hijos de articles*/
+article p {
+
+    color: #444;
+    text-indent: 10px;
+}
+section>p{
+    /*todos los parrafos que sean hijos directos en 1er nivel 
+    de un section  de articles*/
+    font-size: 13px;
+    color: #bbb;
+}
+.publicidad_imagen + figcaption{
+/*el figcaption que sea hermanos directos de un elemento
+de la clase  .publicidad_imagen */
+
+font-size: italic;
+font-size: 12px;
+}
+#mifooter  a ~ button{
+   /* Todo los button que sean hermanos siguientes de a y estos 
+    hijos de un elemento de id #miFooter*/
+border-radius: 6px;
+}
