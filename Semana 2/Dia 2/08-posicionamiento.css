@@ -20,7 +20,7 @@ body {
 	/*Si un elemento relativo se mueve, su espacio inicial
   se respeta y nadie más lo ocupa*/
 	top: 10px;
-	left: calc(100% - 150px);
+	left: calc(50% - 150px);
 }
 .cuadrado:nth-child(2) {
 	position: relative;
